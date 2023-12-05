@@ -1,14 +1,14 @@
-# Knowledge-Based Systems: Sporify-Chatbot
+# Knowledge-Based Systems: Spotify-Chatbot
 ## About The Project
 
 This project is a final project for the Knowledge Based Systems subject, it implements a webhook for a DialogFlow chatbot. 
 
 ### Authors
-Eric Macià (eric.macia@students.salle.url.edu)
+Eric Macià: eric.macia@students.salle.url.edu
 
-Guillermo Sabaté (guillermo.sabate@students.salle.url.edu)
+Guillermo Sabaté: guillermo.sabate@students.salle.url.edu
 
-Josep Segarra (josep.segarra@students.salle.url.edu)
+Josep Segarra: josep.segarra@students.salle.url.edu
 
 ### Overview
 * The chatbot suggests spotify music based on user demands, mapping the most basic requirements (Genre, Danceability, Tempo, Artist, ...)
