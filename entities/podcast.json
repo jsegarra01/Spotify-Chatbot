@@ -1,0 +1,18 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "podcast",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "podcast",
+      "synonyms": [
+        "podcast",
+        "interview"
+      ]
+    }
+  ],
+  "id": "2be249e5-c9f3-4ded-8fca-e2450a86b98a",
+  "isOverridable": false
+}

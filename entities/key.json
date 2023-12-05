@@ -1,0 +1,95 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "key",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "A",
+      "synonyms": [
+        "A"
+      ]
+    },
+    {
+      "value": "B",
+      "synonyms": [
+        "B"
+      ]
+    },
+    {
+      "value": "C",
+      "synonyms": [
+        "C"
+      ]
+    },
+    {
+      "value": "D",
+      "synonyms": [
+        "D"
+      ]
+    },
+    {
+      "value": "E",
+      "synonyms": [
+        "E"
+      ]
+    },
+    {
+      "value": "F",
+      "synonyms": [
+        "F"
+      ]
+    },
+    {
+      "value": "G",
+      "synonyms": [
+        "G"
+      ]
+    },
+    {
+      "value": "Am",
+      "synonyms": [
+        "Am"
+      ]
+    },
+    {
+      "value": "Bm",
+      "synonyms": [
+        "Bm"
+      ]
+    },
+    {
+      "value": "Cm",
+      "synonyms": [
+        "Cm"
+      ]
+    },
+    {
+      "value": "Dm",
+      "synonyms": [
+        "Dm"
+      ]
+    },
+    {
+      "value": "Em",
+      "synonyms": [
+        "Em"
+      ]
+    },
+    {
+      "value": "Fm",
+      "synonyms": [
+        "Fm"
+      ]
+    },
+    {
+      "value": "Gm",
+      "synonyms": [
+        "Gm"
+      ]
+    }
+  ],
+  "id": "c2d36008-88b8-4a4e-908f-a25c4b406f68",
+  "isOverridable": false
+}

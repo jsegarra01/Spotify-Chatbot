@@ -1,0 +1,21 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "n_tempo",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "slow",
+      "synonyms": [
+        "slow",
+        "sleepy",
+        "tortoiselike",
+        "slow-moving",
+        "inert"
+      ]
+    }
+  ],
+  "id": "a78e1e96-ea5c-42e1-b296-2e6604eb5fa2",
+  "isOverridable": false
+}

@@ -1,0 +1,167 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": true,
+  "name": "genre",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "Movie",
+      "synonyms": [
+        "Movie"
+      ]
+    },
+    {
+      "value": "R&B",
+      "synonyms": [
+        "R&B"
+      ]
+    },
+    {
+      "value": "A Capella",
+      "synonyms": [
+        "A Capella"
+      ]
+    },
+    {
+      "value": "Alternative",
+      "synonyms": [
+        "Alternative"
+      ]
+    },
+    {
+      "value": "Country",
+      "synonyms": [
+        "Country"
+      ]
+    },
+    {
+      "value": "Dance",
+      "synonyms": [
+        "Dance"
+      ]
+    },
+    {
+      "value": "Electronic",
+      "synonyms": [
+        "Electronic"
+      ]
+    },
+    {
+      "value": "Anime",
+      "synonyms": [
+        "Anime"
+      ]
+    },
+    {
+      "value": "Folk",
+      "synonyms": [
+        "Folk"
+      ]
+    },
+    {
+      "value": "Blues",
+      "synonyms": [
+        "Blues"
+      ]
+    },
+    {
+      "value": "Opera",
+      "synonyms": [
+        "Opera"
+      ]
+    },
+    {
+      "value": "Hip-Hop",
+      "synonyms": [
+        "Hip-Hop"
+      ]
+    },
+    {
+      "value": "Children's Music",
+      "synonyms": [
+        "Children's Music"
+      ]
+    },
+    {
+      "value": "Rap",
+      "synonyms": [
+        "Rap"
+      ]
+    },
+    {
+      "value": "Indie",
+      "synonyms": [
+        "Indie"
+      ]
+    },
+    {
+      "value": "Classical",
+      "synonyms": [
+        "Classic"
+      ]
+    },
+    {
+      "value": "Pop",
+      "synonyms": [
+        "Pop"
+      ]
+    },
+    {
+      "value": "Reggae",
+      "synonyms": [
+        "Reggae"
+      ]
+    },
+    {
+      "value": "Reggaeton",
+      "synonyms": [
+        "Reggaeton"
+      ]
+    },
+    {
+      "value": "Jazz",
+      "synonyms": [
+        "Jazz"
+      ]
+    },
+    {
+      "value": "Rock",
+      "synonyms": [
+        "Rock"
+      ]
+    },
+    {
+      "value": "Ska",
+      "synonyms": [
+        "Ska"
+      ]
+    },
+    {
+      "value": "Comedy",
+      "synonyms": [
+        "Comedy"
+      ]
+    },
+    {
+      "value": "Soul",
+      "synonyms": [
+        "Soul"
+      ]
+    },
+    {
+      "value": "Soundtrack",
+      "synonyms": [
+        "Soundtrack"
+      ]
+    },
+    {
+      "value": "World",
+      "synonyms": [
+        "World"
+      ]
+    }
+  ],
+  "id": "80f81ed6-bccd-42ad-a523-a43d410290f2",
+  "isOverridable": false
+}

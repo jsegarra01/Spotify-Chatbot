@@ -1,0 +1,20 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "tempo",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "fast",
+      "synonyms": [
+        "fast",
+        "quick",
+        "uptempo",
+        "rapid"
+      ]
+    }
+  ],
+  "id": "a842eb09-d41b-4736-bc05-a0f1917d3f92",
+  "isOverridable": false
+}

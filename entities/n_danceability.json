@@ -1,0 +1,19 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "n_danceability",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "undanceable",
+      "synonyms": [
+        "undanceable",
+        "arrythmic",
+        "not danceable"
+      ]
+    }
+  ],
+  "id": "8c5a3e98-0b78-44ce-aac9-6ea9108dcbd7",
+  "isOverridable": false
+}

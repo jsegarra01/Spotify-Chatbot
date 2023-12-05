@@ -1,0 +1,26 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "n_energy",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "chill",
+      "synonyms": [
+        "chill",
+        "relaxed",
+        "calm",
+        "carefree",
+        "easygoing",
+        "placid",
+        "serene",
+        "tranquil",
+        "slow",
+        "quiet"
+      ]
+    }
+  ],
+  "id": "8f6ab6d1-7a8f-41e1-b9ea-12550529a3da",
+  "isOverridable": false
+}

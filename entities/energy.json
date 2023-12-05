@@ -1,0 +1,20 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "energy",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "energetic",
+      "synonyms": [
+        "energetic",
+        "active",
+        "aggressive",
+        "lively"
+      ]
+    }
+  ],
+  "id": "1f3dd057-8461-4646-966d-4126e004f66d",
+  "isOverridable": false
+}

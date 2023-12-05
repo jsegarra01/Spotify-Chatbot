@@ -1,0 +1,30 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "valence",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "happy",
+      "synonyms": [
+        "happy",
+        "cheerful",
+        "joyful",
+        "sunny",
+        "gay",
+        "upbeat"
+      ]
+    },
+    {
+      "value": "love",
+      "synonyms": [
+        "love",
+        "loving",
+        "romantic"
+      ]
+    }
+  ],
+  "id": "5cc84874-fff9-4d8a-aeb5-88f10ce72aff",
+  "isOverridable": false
+}

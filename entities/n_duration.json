@@ -1,0 +1,17 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "n_duration",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "short",
+      "synonyms": [
+        "short"
+      ]
+    }
+  ],
+  "id": "880fc064-b03b-4502-9bc9-6859cc439eef",
+  "isOverridable": false
+}

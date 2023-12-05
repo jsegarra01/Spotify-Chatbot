@@ -1,0 +1,1541 @@
+{
+  "id": "13291582-5886-418d-b35d-f4e5b9f3f6db",
+  "name": "Music Recommendation",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "popularity",
+          "dataType": "@popularity",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$popularity",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "key",
+          "dataType": "@key",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$key",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "n_popularity",
+          "dataType": "@n_popularity",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$n_popularity",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "valence",
+          "dataType": "@valence",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$valence",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "n_valence",
+          "dataType": "@n_valence",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$n_valence",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "n_tempo",
+          "dataType": "@n_tempo",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$n_tempo",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "tempo",
+          "dataType": "@tempo",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$tempo",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "energy",
+          "dataType": "@energy",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$energy",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "n_energy",
+          "dataType": "@n_energy",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$n_energy",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "danceability",
+          "dataType": "@danceability",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$danceability",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "n_danceability",
+          "dataType": "@n_danceability",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$n_danceability",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "duration",
+          "dataType": "@duration",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$duration",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "n_duration",
+          "dataType": "@n_duration",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$n_duration",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "liveness",
+          "dataType": "@liveness",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$liveness",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "speechiness",
+          "dataType": "@speechiness",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$speechiness",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "n_speechiness",
+          "dataType": "@n_speechiness",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$n_speechiness",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "genre",
+          "dataType": "@genre",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$genre",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "music-artist",
+          "dataType": "@sys.music-artist",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$music-artist",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "podcast",
+          "dataType": "@podcast",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$podcast",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you tell me ",
+          "userDefined": false
+        },
+        {
+          "text": "10",
+          "userDefined": true,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Pop",
+          "userDefined": false,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " songs?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3e81260f-a092-406f-b36e-dbf9150de0de",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "recommend me ",
+          "userDefined": false
+        },
+        {
+          "text": "8",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Electronic",
+          "userDefined": false,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " songs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f3bd3f20-9540-4c5e-a335-984dac41b569",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "recommend me ",
+          "userDefined": false
+        },
+        {
+          "text": "7",
+          "userDefined": true,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Logic",
+          "userDefined": false,
+          "alias": "music-artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " songs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3f833ac2-e51d-4dd1-a1b8-4a2d6280d2fb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "recommend me ",
+          "userDefined": false
+        },
+        {
+          "text": "10",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Comedy",
+          "userDefined": false,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "podcasts",
+          "userDefined": true,
+          "alias": "podcast",
+          "meta": "@podcast"
+        }
+      ],
+      "count": 0,
+      "id": "e026e54c-092d-4908-8084-ddeb84a83a89",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "give me ",
+          "userDefined": false
+        },
+        {
+          "text": "1",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "ACDC",
+          "userDefined": false,
+          "alias": "music-artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0bf07112-cc24-4f17-8d8c-7bc00cdde5a0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me some ",
+          "userDefined": false
+        },
+        {
+          "text": "speechy",
+          "userDefined": true,
+          "alias": "speechiness",
+          "meta": "@speechiness"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Hip Hop",
+          "userDefined": false,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " songs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a7bbc4aa-f71d-44cd-878d-35b79dfaf11f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are some ",
+          "userDefined": false
+        },
+        {
+          "text": "ambiental",
+          "userDefined": true,
+          "alias": "n_speechiness",
+          "meta": "@n_speechiness"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Pop",
+          "userDefined": false,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " songs?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "86254234-5a1c-431f-b121-e210dec6e5ec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "give me ",
+          "userDefined": false
+        },
+        {
+          "text": "wordy",
+          "userDefined": true,
+          "alias": "speechiness",
+          "meta": "@speechiness"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Rap",
+          "userDefined": false,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " songs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a37b3f19-daca-4d42-ba95-adf829a63a33",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me ",
+          "userDefined": false
+        },
+        {
+          "text": "unknown",
+          "userDefined": true,
+          "alias": "n_popularity",
+          "meta": "@n_popularity"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "avicii",
+          "userDefined": true,
+          "alias": "music-artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " songs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "80db6041-cf8f-45d6-96c6-5570c715e862",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want ",
+          "userDefined": false
+        },
+        {
+          "text": "fast",
+          "userDefined": true,
+          "alias": "tempo",
+          "meta": "@tempo"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "sad",
+          "userDefined": true,
+          "alias": "n_valence",
+          "meta": "@n_valence"
+        },
+        {
+          "text": " music from ",
+          "userDefined": false
+        },
+        {
+          "text": "Abba",
+          "userDefined": true,
+          "alias": "music-artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "71921679-fbd2-4f8c-a232-a14aa521ac21",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "recommend me ",
+          "userDefined": false
+        },
+        {
+          "text": "energetic",
+          "userDefined": true,
+          "alias": "energy",
+          "meta": "@energy"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Pop",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " songs by ",
+          "userDefined": false
+        },
+        {
+          "text": "Dua Lipa",
+          "userDefined": true,
+          "alias": "music-artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "bcda6b54-f078-4a31-a241-67f958baa85d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me ",
+          "userDefined": false
+        },
+        {
+          "text": "live",
+          "userDefined": false,
+          "alias": "liveness",
+          "meta": "@liveness"
+        },
+        {
+          "text": " songs by ",
+          "userDefined": false
+        },
+        {
+          "text": "Fito & Fitipaldis",
+          "userDefined": true,
+          "alias": "music-artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "a99dd4f6-32a7-49c9-a19f-e9eaeb970a90",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "give me ",
+          "userDefined": false
+        },
+        {
+          "text": "long",
+          "userDefined": true,
+          "alias": "duration",
+          "meta": "@duration"
+        },
+        {
+          "text": " songs by ",
+          "userDefined": false
+        },
+        {
+          "text": "Tame Impala",
+          "userDefined": true,
+          "alias": "music-artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "f5658b23-72f8-4db7-aad8-47c7a06be601",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "recommend me some ",
+          "userDefined": false
+        },
+        {
+          "text": "short",
+          "userDefined": true,
+          "alias": "n_duration",
+          "meta": "@n_duration"
+        },
+        {
+          "text": " songs by ",
+          "userDefined": false
+        },
+        {
+          "text": "Metallica",
+          "userDefined": true,
+          "alias": "music-artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": ".",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "68c75ef9-8f42-4d52-8fd1-c1ff597f5562",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me ",
+          "userDefined": false
+        },
+        {
+          "text": "undanceable",
+          "userDefined": true,
+          "alias": "n_danceability",
+          "meta": "@n_danceability"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Electronic",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " music",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "376a22b3-025c-4dca-ac82-2a7545c8bf8a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "give me some ",
+          "userDefined": false
+        },
+        {
+          "text": "danceable",
+          "userDefined": true,
+          "alias": "danceability",
+          "meta": "@danceability"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Dance",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " songs.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bda14a54-e328-47f5-9b55-af3efb9a39bd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are some ",
+          "userDefined": false
+        },
+        {
+          "text": "upbeat",
+          "userDefined": true,
+          "alias": "valence",
+          "meta": "@valence"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Classical",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " songs.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5f63e70e-2f08-4ae8-8e72-71654bcb08e2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "give me some ",
+          "userDefined": false
+        },
+        {
+          "text": "slow",
+          "userDefined": true,
+          "alias": "n_energy",
+          "meta": "@n_energy"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Pop",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " songs.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "18383b65-4c0c-40c9-8ee4-059244224809",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "give me a few ",
+          "userDefined": false
+        },
+        {
+          "text": "quiet",
+          "userDefined": true,
+          "alias": "n_energy",
+          "meta": "@n_energy"
+        },
+        {
+          "text": " and ",
+          "userDefined": false
+        },
+        {
+          "text": "popular",
+          "userDefined": false,
+          "alias": "popularity",
+          "meta": "@popularity"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Classic",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " songs.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cdf257e3-a414-4077-9df7-b09801619b92",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me 3 ",
+          "userDefined": false
+        },
+        {
+          "text": "energetic",
+          "userDefined": true,
+          "alias": "energy",
+          "meta": "@energy"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Dance",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " songs.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "344a9d3c-4526-4434-a390-aa37c3fbf368",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "give me some ",
+          "userDefined": false
+        },
+        {
+          "text": "popular",
+          "userDefined": true,
+          "alias": "popularity",
+          "meta": "@popularity"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "uptempo",
+          "userDefined": true,
+          "alias": "tempo",
+          "meta": "@tempo"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Hip-Hop",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " songs.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "29252d5c-29fc-4391-b568-5c01bf67fd12",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are some ",
+          "userDefined": false
+        },
+        {
+          "text": "Rap",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " songs in ",
+          "userDefined": false
+        },
+        {
+          "text": "B",
+          "userDefined": true,
+          "alias": "key",
+          "meta": "@key"
+        },
+        {
+          "text": " key that are ",
+          "userDefined": false
+        },
+        {
+          "text": "sad",
+          "userDefined": true,
+          "alias": "n_valence",
+          "meta": "@n_valence"
+        },
+        {
+          "text": " and ",
+          "userDefined": false
+        },
+        {
+          "text": "slow?",
+          "userDefined": true,
+          "alias": "n_tempo",
+          "meta": "@n_tempo"
+        }
+      ],
+      "count": 0,
+      "id": "3198dcee-2988-448c-8e4b-b502b8560a57",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "give me some ",
+          "userDefined": false
+        },
+        {
+          "text": "depressed",
+          "userDefined": true,
+          "alias": "n_valence",
+          "meta": "@n_valence"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Abba",
+          "userDefined": true,
+          "alias": "music-artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " songs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c5761af1-56b3-4eb8-810c-da3f923d8f39",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you tell me some ",
+          "userDefined": false
+        },
+        {
+          "text": "sad",
+          "userDefined": true,
+          "alias": "n_valence",
+          "meta": "@n_valence"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Soundtrack",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " songs?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "3473b962-fa62-4241-bcde-99241e32f264",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me some ",
+          "userDefined": false
+        },
+        {
+          "text": "unhappy",
+          "userDefined": true,
+          "alias": "n_valence",
+          "meta": "@n_valence"
+        },
+        {
+          "text": " songs from ",
+          "userDefined": false
+        },
+        {
+          "text": "Guns n'Roses.",
+          "userDefined": true,
+          "alias": "music-artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "b4cd3031-1d48-48ad-b021-a9db6755a849",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Give me ",
+          "userDefined": false
+        },
+        {
+          "text": "gay",
+          "userDefined": true,
+          "alias": "valence",
+          "meta": "@valence"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "bad bunny",
+          "userDefined": true,
+          "alias": "music-artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " songs.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b4d7e82f-33fb-4ae4-bc45-906f8cf519b7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are some ",
+          "userDefined": false
+        },
+        {
+          "text": "happy",
+          "userDefined": true,
+          "alias": "valence",
+          "meta": "@valence"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Folk",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " songs.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "94477321-5c52-42de-9867-6ce32fba2264",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Give me ",
+          "userDefined": false
+        },
+        {
+          "text": "a",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " list of ",
+          "userDefined": false
+        },
+        {
+          "text": "gay",
+          "userDefined": true,
+          "alias": "valence",
+          "meta": "@valence"
+        },
+        {
+          "text": " songs from ",
+          "userDefined": false
+        },
+        {
+          "text": "Abba",
+          "userDefined": true,
+          "alias": "music-artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": ".",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0acfc2b8-22d9-4639-ab97-0dfb891e05e7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Give me ",
+          "userDefined": false
+        },
+        {
+          "text": "popular",
+          "userDefined": true,
+          "alias": "popularity",
+          "meta": "@popularity"
+        },
+        {
+          "text": " songs from the ",
+          "userDefined": false
+        },
+        {
+          "text": "Alternative",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " genre.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cfea127e-ae34-4426-8a3c-d744a2b4d63a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Which are ",
+          "userDefined": false
+        },
+        {
+          "text": "unpopular",
+          "userDefined": true,
+          "alias": "n_popularity",
+          "meta": "@n_popularity"
+        },
+        {
+          "text": " songs from the ",
+          "userDefined": false
+        },
+        {
+          "text": "Anime",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " genre.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e22cf620-bce6-4250-ab69-34f3f1792edb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tell me some ",
+          "userDefined": false
+        },
+        {
+          "text": "Rock",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " songs in ",
+          "userDefined": false
+        },
+        {
+          "text": "Cm",
+          "userDefined": false,
+          "alias": "key",
+          "meta": "@key"
+        },
+        {
+          "text": " that are ",
+          "userDefined": false
+        },
+        {
+          "text": "unacoustic",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": ".",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b2899929-da7b-4bb3-9413-22b005a64825",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Recommend me some ",
+          "userDefined": false
+        },
+        {
+          "text": "unaural",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Pop",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " songs in ",
+          "userDefined": false
+        },
+        {
+          "text": "B",
+          "userDefined": true,
+          "alias": "key",
+          "meta": "@key"
+        },
+        {
+          "text": ".",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2065d928-efff-48c4-8861-35a1836937dc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tell me some ",
+          "userDefined": false
+        },
+        {
+          "text": "Country",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " songs in ",
+          "userDefined": false
+        },
+        {
+          "text": "A",
+          "userDefined": true,
+          "alias": "key",
+          "meta": "@key"
+        },
+        {
+          "text": ".",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "61dfb579-4bd0-4ede-a118-0784690a13a8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are some ",
+          "userDefined": false
+        },
+        {
+          "text": "popular",
+          "userDefined": true,
+          "alias": "popularity",
+          "meta": "@popularity"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "G-Eazy",
+          "userDefined": true,
+          "alias": "music-artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " songs.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2866050b-90f7-4aa0-bed5-03f8473c8a82",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tell me some ",
+          "userDefined": false
+        },
+        {
+          "text": "acoustic",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Electronic",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@genre"
+        },
+        {
+          "text": " songs.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eddf80e6-71ac-4658-91a9-4a8865bf02d0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are some ",
+          "userDefined": false
+        },
+        {
+          "text": "Bad Bunny",
+          "userDefined": true,
+          "alias": "music-artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " songs?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6f24aee0-c635-4c7f-bd90-0413abfb6739",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you recommend me some ",
+          "userDefined": false
+        },
+        {
+          "text": "Shakira",
+          "userDefined": true,
+          "alias": "music-artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " music?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "00ce3810-9182-4e35-8b1c-5a1d5d84d6a9",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

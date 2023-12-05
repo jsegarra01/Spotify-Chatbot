@@ -1,0 +1,20 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "popularity",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "popular",
+      "synonyms": [
+        "popular",
+        "known",
+        "favoured",
+        "liked"
+      ]
+    }
+  ],
+  "id": "fbfb74be-2eb5-4e05-a9dd-c077d61f1007",
+  "isOverridable": false
+}

@@ -1,0 +1,22 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "n_popularity",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "disliked",
+      "synonyms": [
+        "disliked",
+        "unknown",
+        "niche",
+        "unpopular",
+        "unfrequented",
+        "unusual"
+      ]
+    }
+  ],
+  "id": "25d87446-e5e0-43a3-b160-cd8c7550ee90",
+  "isOverridable": false
+}

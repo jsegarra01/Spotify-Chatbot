@@ -1,0 +1,24 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "n_valence",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "sad",
+      "synonyms": [
+        "sad",
+        "unhappy",
+        "bitter",
+        "heartbroken",
+        "melancholic",
+        "down",
+        "sorry",
+        "depressed"
+      ]
+    }
+  ],
+  "id": "7d4d0121-2814-47b0-8062-dc733debc534",
+  "isOverridable": false
+}

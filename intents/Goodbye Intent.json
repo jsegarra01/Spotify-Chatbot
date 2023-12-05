@@ -1,0 +1,255 @@
+{
+  "id": "c4c8dbdf-3a3d-440c-ab98-473b16c8756b",
+  "name": "Goodbye Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": true,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hasta la vista!",
+            "See you later aligator!",
+            "Finally! Bye!",
+            "Aloha!",
+            "Bye! See you soon!",
+            "Great chat! Come back soon!",
+            "Goodbye!",
+            "See ya!",
+            "*blows kiss* See you soon!",
+            "Be seeing you!",
+            "See you around!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Be seeing you!",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c34d5eff-5622-4e22-a4cd-1f084f206fb8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "See you around!",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "01cea907-9839-4b8f-915c-e2eea5b808f8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Ciao!",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "965ecdf7-ed3f-4711-868a-365e36994f08",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "see you later aligator",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b6f69196-c178-4567-8830-a109849c4bb0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Bye for now!",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9c36cf89-a841-4080-9bc2-96a762efdabf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Cheerio!",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "485fe341-e7f1-4909-878a-381640878f9e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "goodnight",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c973521c-8598-4670-a08e-9c821e56f1c4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "catch you later!",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ecd8a05d-353b-4024-a619-45d2087581ec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "see you soon",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "17d543e3-4cee-4ed1-9cd3-28eac9d5302a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm off!",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3ed999e7-49ae-49c2-8435-4f67c6d11960",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "farewell",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c1cd8707-3805-4e47-9e4f-dc6a3581ee7d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am leaving",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5f714862-1532-4822-9c37-021eb3e4d9d4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i have to go",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b7609a52-4f53-44e3-9684-21fe04e592d3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i got to go",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "05f8379c-35bc-4a8b-bba3-a46c17d497d0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "see you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6547a064-2017-4e18-8101-1d3502eecb84",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "goodbye",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "81ebf6dd-e901-4801-b8f8-93f974d93e9a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "bye",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "75b80556-76bf-4546-9f99-2c4039b39bfd",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

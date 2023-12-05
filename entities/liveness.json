@@ -1,0 +1,17 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "liveness",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "live",
+      "synonyms": [
+        "live"
+      ]
+    }
+  ],
+  "id": "ebc6b068-36eb-432b-b5db-5195231d4b30",
+  "isOverridable": false
+}

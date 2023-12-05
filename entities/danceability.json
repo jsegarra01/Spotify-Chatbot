@@ -1,0 +1,33 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "danceability",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "danceable",
+      "synonyms": [
+        "danceable",
+        "moving",
+        "dancing",
+        "rythmic",
+        "rythmical"
+      ]
+    },
+    {
+      "value": "to dance",
+      "synonyms": [
+        "to dance"
+      ]
+    },
+    {
+      "value": "dance",
+      "synonyms": [
+        "dance"
+      ]
+    }
+  ],
+  "id": "cf379c98-44ac-4fd2-aa63-8fe7200201fa",
+  "isOverridable": false
+}

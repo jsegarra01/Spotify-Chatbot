@@ -1,0 +1,21 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "n_speechiness",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "instrumental",
+      "synonyms": [
+        "instrumental",
+        "ambiental",
+        "acoustic",
+        "aural",
+        "audible"
+      ]
+    }
+  ],
+  "id": "9cf1a7d6-c7ce-4194-8178-d586cafd3a7e",
+  "isOverridable": false
+}
